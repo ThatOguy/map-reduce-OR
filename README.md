@@ -29,9 +29,13 @@ This Data was collected from Random.com's random paragraph generator. While gath
 
 ## Findings
 
+Currently I am not able to get NLTK to remove all the stop words but As follows are my results. I have colected almost 900 unique words used by this random generator and shown in the graph bellow the most common 150. 
+
 ---
 
 ## Graph
+
+!["graph of the count of top words"](countofwords.png)
 
 ---
 

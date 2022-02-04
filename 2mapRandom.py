@@ -10,7 +10,7 @@ stopWords = set(stopwords.words('english'))
 for line in sys.stdin:
   strList = line.strip().split('\t')
   if strList[0] not in stopWords:
-      if (len(strList) == 2):
-        key, value = strList
-        # right justify using 8 columns - sorting done automatically
-        print(value.strip().zfill(8),'\t',key)
+    if (len(strList) == 2):
+      key, value = strList
+      # right justify using 8 columns - sorting done automatically
+      print(value.strip().zfill(8),'\t',key)
